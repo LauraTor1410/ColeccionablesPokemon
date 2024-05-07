@@ -1,0 +1,131 @@
+body {
+    background-image: url('estrellas.jpg'); 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+   
+}
+h3{
+    color:white
+}
+.title {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+label{
+    color: white;
+}
+.formReg{
+    display: table-caption;
+}
+ul{
+   background-color: inherit;
+   margin-left: 0;
+   padding-left: 0;
+   
+}
+
+.gifPkmn{
+    
+    width: 100px; 
+    height: auto;
+}
+.pkmnCard{
+    width: 15rem;
+    height: 42rem;
+    display: inline-flex;
+    border-color: black;
+    margin: 5px;
+}
+.card-body{
+    font-size: 13px;
+    display: grid;
+}
+.gif-container{
+    height: 100px;
+    overflow: hidden;
+    margin: 10px;
+}
+.card-grass{
+    background-color: #01DF08;
+    color: #F3FE8E;
+}
+
+.card-fire{
+    background-color: #FC2A00;
+    color: #FF9E22;      
+}
+.card-water{
+    background-color: #0B8CFF;
+    color: #03213B;
+}
+.card-dark{
+    background-color: #010101;
+    color: #FFFFFF;
+}
+.card-dragon{
+    background-color: #B52EBC;
+    color: #000000;
+}
+.card-fight{
+    background-color: #EC5301;
+    color: #592407;
+}
+.card-psy{
+    background-color: #DB34C7;
+    color: #FFA9EF;
+}
+.card-fly{
+    background-color: #F2BE88;
+    color: #F77E00;
+}
+.card-fairy{
+    background-color: #FF3BB0;
+    color: #55193D;
+}
+.card-rock{
+    background-color: #927B59;
+    color: #342818;
+}
+.card-ice{
+    background-color: #1BDFFF;
+    color: #2E5E94;
+}
+.card-electric{
+    background-color: #EFFF00;
+    color: #FF5900;
+}
+.card-ground{
+    background-color: #554021;
+    color: #FFA97F;
+}
+.card-steel{
+    background-color: #C8B9B2;
+    color: #2D2BF9;
+}
+.card-ghost{
+    background-color: #443255;
+    color: #A585EF;
+}
+.card-bug{
+    background-color: #325532;
+    color: #5AFE5A;
+}
+.card-normal{
+    background-color: #BEC2BE;
+    color: #000000;
+}
+.card-poison{
+    background-color: #6E3499;
+    color: #000000;
+}
+.cardButton{
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 20px;
+}
